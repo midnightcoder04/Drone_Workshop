@@ -17,3 +17,4 @@ while True:
     # out = cv2.Canny(out,200,400)
     cv2.imshow("2024 Rewind",out)
     cv2.waitKey(6)
+    
