@@ -13,9 +13,6 @@ while True:
     elif keyboard.is_pressed("down"):
         print("Moving Down with arrow ")
         cv2.waitKey(100)
-    
-
-        
     elif keyboard.is_pressed("a") or keyboard.is_pressed("left"):
         print("Moving Left")
         cv2.waitKey(100)

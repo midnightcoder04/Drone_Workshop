@@ -6,7 +6,6 @@ drone = Tello()
 drone.connect()
 print(drone.get_battery())
 
-
 # Launch
 drone.takeoff()
 cv2.waitKey(1000)
@@ -44,3 +43,6 @@ while True:
     elif keyboard.is_pressed("esc"):
         print("Exiting...")
         break
+
+# Land    
+drone.land()
